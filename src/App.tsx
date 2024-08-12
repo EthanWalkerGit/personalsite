@@ -3,7 +3,7 @@ import { Home, About, Experience, Projects, Footer } from './components';
 
 function App() {
   return (
-    <div className="App">
+    <div className="h-screen w-full font-Inter">
 
       <Home />
 
