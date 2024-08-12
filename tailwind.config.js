@@ -6,7 +6,9 @@ module.exports = {
   theme: {
     extend: {
       padding: {
-        '2/3vh': '23vh',
+        '23vh': '23vh',
+        '10vh': '10vh',
+        '20vw': '20vw',
       },
       fontFamily: {
         inter: ['Inter', 'sans-serif'],

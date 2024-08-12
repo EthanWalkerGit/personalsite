@@ -1,11 +1,13 @@
+import Hiking from '../assets/about.jpg';
+
 const About = () => {
     return (
-      <div className="my-16 w-full flex items-center justify-center">
-        <div className="w-1/2 py-2/3vh border-2 border-red-500 flex items-center justify-center">
+      <div className="w-full flex items-center justify-center">
+        <div className="w-full px-[20px] md:w-1/2 py-2/3vh border-2 border-red-500 flex items-center justify-center">
 
           <div>
             <div>
-              <p>Image</p>
+            <img src={Hiking} alt="Profile" className="w-32 h-32 " /> {/* Adjust the class names as needed */}
             </div>
             <div>
               <p>Ethan Walker</p>
