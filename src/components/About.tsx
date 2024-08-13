@@ -1,36 +1,42 @@
-import Hiking from '../assets/about.jpg';
+import Hiking from '../assets/about3.jpg';
+import linkedIn from '../assets/linkedin.png';
+import github from '../assets/github.png';
 
 const About = () => {
-    return (
-      <div className="w-full flex items-center justify-center">
-        <div className="w-full px-[20px] md:w-1/2 py-2/3vh border-2 border-red-500 flex items-center justify-center">
-
-          <div>
+  return (
+    <div className="relative mt-10 md:mt-14 w-full flex items-center justify-center bg-card">
+      <div className="absolute inset-0 bg-gradient-to-b from-main to-card z-0"></div>
+      <div className="relative w-full mx-[20px] sm:mx-[70px] md:mx-[90px] lg:w-2/3 xl:w-1/2 z-10">
+        <div className="flex flex-col md:flex-row items-center justify-center">
+          <div className="m-3">
             <div>
-            <img src={Hiking} alt="Profile" className="w-32 h-32 " /> {/* Adjust the class names as needed */}
+              <img src={Hiking} alt="Profile" className="rounded-t-lg max-w-[300px]" />
             </div>
-            <div>
-              <p>Ethan Walker</p>
-              <p>ethanwalker576@gmail.com</p>
-              <div>
-                <p>Linkedin</p>
-                <p>Github</p>
+            <div className="py-3 max-w-[300px] bg-white rounded-b-lg h-35 flex flex-col justify-center items-center">
+              <div className="font-bold text-xl">Ethan Walker</div>
+              <div className="italic">ethanwalker576@gmail.com</div>
+              <div className="flex flex-row items-center">
+                <a href="https://www.linkedin.com/in/ethanwalker576/" target="_blank" rel="noopener noreferrer">
+                  <img src={linkedIn} alt="LinkedIn" className="w-6 h-6 m-3" />
+                </a>
+                <a href="https://github.com/EthanWalkerGit" target="_blank" rel="noopener noreferrer">
+                  <img src={github} alt="GitHub" className="w-6 h-6 m-3" />
+                </a>
               </div>
             </div>
           </div>
-
-          <div>
-            <h2>Who am I?</h2>
-              <p>
-              Hello! I'm Ethan, a Software Developer based in Windsor, ON who's experienced in taking fullstack applications from scratch to production.
-              I'm currently attending the University of Windsor as a Computer Science major and have just finished an internship at Magna International.
-              Over the last year, I've had the opportunity to develop for Magna, work on my own projects and explore different technologies. My work includes developing web apps, mobile apps, working with relational databases, and implementing data solutions.
-              </p>
+          <div className="m-3">
+            <div className="mb-4 font-bold text-3xl">Who am I?</div>
+            <div className="font-normal text-lg lg:text-xl">
+              Hello! I'm Ethan, a Software Developer based in <span className="font-bold text-mainGreen">Windsor, ON</span> who's experienced in taking fullstack applications from scratch to production.<br /><br />
+              I'm currently attending the <span className="font-bold text-mainGreen">University of Windsor</span> as a Computer Science major and have just finished an internship at Magna International.<br /><br />
+              Over the last year, I've had the opportunity to develop for <span className="font-bold text-mainGreen">Magna International</span>, work on my own projects and explore different technologies. My work includes developing web apps, mobile apps, working with relational databases, and implementing data solutions.
+            </div>
           </div>
-
         </div>
       </div>
-    )
-}
+    </div>
+  );
+};
 
 export default About;
