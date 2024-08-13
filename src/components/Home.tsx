@@ -1,6 +1,6 @@
 const Home = () => {
   return (
-    <div className="mt-16 w-full flex items-center justify-center bg-white">
+    <div className="mt-16 w-full flex items-center justify-center bg-main">
       <div className="w-full mx-[20px] sm:mx-[70px] md:mx-[120px] lg:w-2/3 xl:w-1/2 py-7vh xl:py-23vh">
         <div className="text-left ml-4">
           <div className="max-w-xl">  

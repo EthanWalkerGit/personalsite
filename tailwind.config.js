@@ -9,7 +9,9 @@ module.exports = {
         '23vh': '20vh',
         '10vh': '10vh',
         '20vw': '20vw',
-        '7vh': '7vh'
+        '7vh': '7vh',
+        'homePadding': '65vh;',
+        'mobilePadding': '40vh',
       },
       maxHeight: {
         'mainImage': '500px',
@@ -21,9 +23,10 @@ module.exports = {
       },
       colors: {
         mainGreen: '#1aa31f',
-        card: '#e3e3e3',
+        card: '#ebebeb',
         main: '#f2f2f2',
         home: '#f4ffe8',
+        lightText: '#696969',
       },
     },
   },
