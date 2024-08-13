@@ -11,3 +11,9 @@ body {
 html, body {
   overflow-x: hidden;
 }
+
+.home-container {
+  background-image: url('./assets/fabric.webp');
+  background-repeat: repeat;
+  background-attachment: fixed;
+}

@@ -6,12 +6,18 @@ module.exports = {
   theme: {
     extend: {
       padding: {
-        '23vh': '20vh',
+        '20vh': '20vh',
         '10vh': '10vh',
+        '14vh': '14vh',
         '20vw': '20vw',
         '7vh': '7vh',
         'homePadding': '65vh;',
         'mobilePadding': '40vh',
+      },
+      margin: {
+        '14vh': '14vh',
+        'homeMargin': '65vh;',
+        'mobileMargin': '40vh',
       },
       maxHeight: {
         'mainImage': '500px',
