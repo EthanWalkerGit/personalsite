@@ -2,27 +2,23 @@ import React, { useRef } from 'react';
 import './App.css';
 import { Home, About, Experience, Projects, Footer, Nav } from './components';
 
-const App: React.FC = () => {
-  const aboutRef = useRef<HTMLDivElement>(null);
-  const experienceRef = useRef<HTMLDivElement>(null);
-  const projectsRef = useRef<HTMLDivElement>(null);
-
+const App = () => {
   return (
     <div className="relative h-screen w-full font-Inter">
       <div className="fixed top-0 left-0 w-full z-20">
-        <Nav aboutRef={aboutRef} experienceRef={experienceRef} projectsRef={projectsRef} />
+        <Nav />
       </div>
       <div className="fixed top-0 left-0 w-full h-full home-container z-0">
         <Home />
       </div>
       <div className="relative z-10 mt-mobileMargin xl:mt-homeMargin">
-        <div ref={aboutRef}>
+        <div>
           <About />
         </div>
-        <div ref={experienceRef}>
+        <div>
           <Experience />
         </div>
-        <div ref={projectsRef}>
+        <div>
           <Projects />
         </div>
         <Footer />

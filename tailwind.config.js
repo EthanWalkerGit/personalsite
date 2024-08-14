@@ -15,7 +15,6 @@ module.exports = {
         'mobilePadding': '40vh',
       },
       margin: {
-        '14vh': '14vh',
         'homeMargin': '65vh;',
         'mobileMargin': '40vh',
       },
