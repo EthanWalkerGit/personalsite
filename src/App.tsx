@@ -7,11 +7,11 @@ const App = () => {
       <div className="fixed top-0 left-0 w-full z-20">
         <Nav />
       </div>
-      <div className="fixed top-0 left-0 w-full h-full home-container z-0">
+      <div className="relative w-full home-container z-0">
         <Home />
       </div>
-      <div className="relative z-10 mt-mobileMargin xl:mt-homeMargin">
-      <div id="about">
+      <div className="relative z-10">
+        <div id="about">
           <About />
         </div>
         <div id="experience">

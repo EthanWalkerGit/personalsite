@@ -4,8 +4,8 @@ import github from '../assets/github.png';
 
 const About = () => {
   return (
-    <div className="relative py-10 md:py-14 w-full flex items-center justify-center bg-card">
-      <div className="relative w-full mx-[20px] sm:mx-[70px] md:mx-[90px] lg:w-2/3 xl:w-1/2 z-10">
+    <div className="py-10 md:py-14 w-full flex items-center justify-center bg-card">
+      <div className="w-full mx-[20px] sm:mx-[70px] md:mx-[90px] lg:w-2/3 xl:w-1/2">
         <div className="flex flex-col md:flex-row items-center justify-center">
           <div className="m-3">
             <div>
