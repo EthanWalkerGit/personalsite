@@ -11,13 +11,13 @@ const App = () => {
         <Home />
       </div>
       <div className="relative z-10 mt-mobileMargin xl:mt-homeMargin">
-        <div>
+      <div id="about">
           <About />
         </div>
-        <div>
+        <div id="experience">
           <Experience />
         </div>
-        <div>
+        <div id="projects">
           <Projects />
         </div>
         <div>
