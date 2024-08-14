@@ -1,4 +1,3 @@
-import React, { useRef } from 'react';
 import './App.css';
 import { Home, About, Experience, Projects, Footer, Nav } from './components';
 
@@ -17,6 +16,12 @@ const App = () => {
         </div>
         <div>
           <Experience />
+        </div>
+        <div>
+          <Projects />
+        </div>
+        <div>
+          <Footer />
         </div>
       </div>
     </div>

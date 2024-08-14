@@ -1,6 +1,6 @@
 const Experience = () => { 
     return (
-      <div className="py-16 w-full flex flex-col items-center bg-main">
+      <div className="py-12 w-full flex flex-col items-center bg-main">
         <div className="w-full mx-[20px] sm:mx-[70px] md:mx-[120px] lg:w-2/3 xl:w-1/2">
         <div className="m-6 mb-3 font-bold text-3xl">Here's where I've worked at</div>
         <div className="m-6 bg-white rounded-lg">

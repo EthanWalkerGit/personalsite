@@ -17,3 +17,14 @@ html, body {
   background-repeat: repeat;
   background-attachment: fixed;
 }
+
+.custom-list li {
+  display: inline-block;
+  background-color: #38a169; 
+  color: white;
+  border-radius: 0.25rem; 
+  padding: 0.25rem 0.5rem; 
+  margin: 0.25rem; 
+  font-weight: bold;
+  font-size: 0.875rem;
+}
