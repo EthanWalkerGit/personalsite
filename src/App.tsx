@@ -7,7 +7,7 @@ const App = () => {
       <div className="fixed top-0 left-0 w-full z-20">
         <Nav />
       </div>
-      <div className="relative w-full home-container z-0">
+      <div id="home" className="relative w-full home-container z-0">
         <Home />
       </div>
       <div className="relative z-10">
